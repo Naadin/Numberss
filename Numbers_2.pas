@@ -8,7 +8,7 @@ begin
   sum := (b + c);
   m := n div 10;
   if (n > 0) and (n < 10) then begin
-     Writeln('Число состоит из одной цифры');
+     sum := (b + c);
      Writeln('Сумма его цифр = ', n);
      Writeln('Первая цифра числа = ', n);
      Writeln('Последняя цифра числа = ', n);
