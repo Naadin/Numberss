@@ -7,7 +7,6 @@ begin
   c := n mod 10;
   sum := (b + c);
   m := n div 10;
-  k := n mod 10;
   if (n > 0) and (n < 10) then begin
      Writeln('Число состоит из одной цифры');
      Writeln('Сумма его цифр = ', n);
